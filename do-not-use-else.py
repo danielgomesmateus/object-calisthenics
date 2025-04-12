@@ -8,6 +8,8 @@ def login(request):
         redirect("login")
 
 
+# This code below is a refactored version of the original code above.
+
 def login(request):
     username = "username"
     password = "password"

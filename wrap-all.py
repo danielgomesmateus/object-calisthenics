@@ -3,6 +3,8 @@ class Pessoa:
         self.cpf = cpf
 
 
+# This code below is a refactored version of the original code above.
+
 class CPF:
     def __init__(self, value):
         if not self._is_valid(value):

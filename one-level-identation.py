@@ -14,6 +14,8 @@ class Board:
         return '\n'.join(lines)
 
 
+# This code below is a refactored version of the original code above.
+
 class Board:
     def __init__(self, data):
         self.data = data
